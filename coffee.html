@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="coffee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form id= "myForm" id= myForm>
+    <header>
+       <h1> Online Coffee Shop</h1>
+    </header>
+    <main>
+        <p>
+            <h2>Menu</h2>
+        </p>
+    <ul>
+        <li>
+            <img src="cupcakes.jpg" alt="red cupcake with icing and a cherry on top" width="100px" height="100px">
+           <span>cupcake</span> - $2.00 <input type="number" id="cupcake" name="cupcake">
+        </li>
+        <br>
+        <li>
+            <img src="latte.jpg" alt="green cup with latte" width="100px" height="100px" >
+            <span>Latte</span> - $3.00 <input type="number" id="latte" name="latte">
+        </li>
+        <br>
+       <li>
+            <img src="cookie.jpg" alt="chocolate cookie" width="100px" height="100px">
+            <span>cookie</span> - $1.00 <input type="number" id="cookie" name= "cookie">
+        </li>
+        <br>
+            <p id="total">Cart Total: </p>
+        
+            <p>
+                <input type="button" value="Total" id="cost"
+                  onclick="Total()"/>
+            </p>
+        </tr>  
+    </ul>
+</main>
+    <footer>
+        <p><a href="mailto:onlinecoffeeshop@example.com">onlinecoffee@example.com</a></p>
+        <p>Address: S Jefferson St. San Diego Ca. 22400</p>
+        <a href="http://online_coffee_shop.com">Visit Our Website</a>
+    </footer>
+</form>
+    <script src='coffee.js'></script>
+</body>
+</html>
